@@ -1,0 +1,42 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.box { 
+  margin: 20rpx; 
+  padding: 10rpx; 
+  border: 2px solid blue; 
+}
+
+.title {  
+  font-size: 15px; 
+  text-align: center; 
+  margin-bottom: 10px; 
+  color:red; 
+}
+
+.textstyle{
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top:20px ;
+  color: #45c0c9e0;
+}
+
+.textstyle1{
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top:20px ;
+  color: #45c0c9e0;
+}
+
+
+

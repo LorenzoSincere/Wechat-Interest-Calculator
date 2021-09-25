@@ -1,0 +1,25 @@
+<!--pages/demo204-ScoreCalc/index.wxss -->
+<view class='box'>
+  <view class='title'>利息计算器</view>
+  <input placeholder="请输入你的名字" placeholder-class="placeholder" bindinput='nameInput'></input>
+  <input placeholder="请输入本金" placeholder-class="placeholder" bindinput='principalInput' type='number'></input>
+  <input placeholder="请输入利率" placeholder-class="placeholder" bindinput='interest_rateInput' type='number'></input>
+  <input placeholder="请输入存取年期" placeholder-class="placeholder" bindinput='access_periodInput' type='number'></input>
+  <button bindtap='mysubmit'>提交</button>
+  <view hidden='{{flag}}' class='content'>
+    <view class='content-item'>姓名:{{name}}</view>
+    <view class='content-item'>每月本金：{{principal}}</view>
+    <view class='content-item'>利率:{{interest_rate}}</view>
+    <view class='content-item'>所得利息总计:{{interest}}</view>
+    <view class='content-item'>存取年限后总本金:{{Total_principal_after_deposit_and_withdrawal_period}}</view>
+  </view>
+  <view class="textstyle">
+    @author：电科19-1
+              201923010111
+              李波澄
+              </view>
+  <view class="textstyle1">
+  @微信开发study hardly！
+  </view>
+            
+</view>  

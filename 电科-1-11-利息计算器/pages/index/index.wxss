@@ -1,0 +1,35 @@
+/* pages/demo204-ScoreCalc/index.wxss */
+page{
+  background: white
+} 
+.placeholder{
+  font-size: 15px;
+} 
+input{
+  background: greenyellow;
+  height: 120rpx;
+  margin: 10px;
+  padding-left: 8px;
+  border: solid 2px blue
+} 
+button{
+  margin: 30rpx 50rpx;
+  background-color: red;
+  color: white;
+} 
+
+.content{
+  background: #fff;
+  padding: 10px;
+  color:#f00
+} 
+.content-item{
+  padding: 3rpx;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.textstyle{
+  text-align: center;
+}
+
